@@ -26,7 +26,7 @@ class LoginPage extends StatelessWidget {
       width: double.infinity,
       decoration: BoxDecoration(
           gradient: LinearGradient(colors: <Color>[
-        Color.fromARGB(255, 39, 32, 167),
+        Color.fromARGB(255, 36, 29, 167),
         Color.fromARGB(255, 28, 26, 153)
       ])),
     );
