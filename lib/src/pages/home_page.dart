@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
     return Dismissible(
         key: UniqueKey(),
         background: Container(
-          color: Colors.red,
+          color: Color.fromARGB(255, 235, 28, 28),
         ),
         onDismissed: (direccion) {
           productosProvider.borrarProducto(producto.id!);
@@ -74,7 +74,6 @@ class _HomePageState extends State<HomePage> {
           ]),
         ));
   }
-
 
   _crearBoton(BuildContext context) {
     return FloatingActionButton(
